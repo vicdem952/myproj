@@ -13,7 +13,7 @@ Run the following command on the terminal: git clone https://github.com/vicdem95
 None for now!!
 
 ## Technologies used
-PHP, Apache, MySql,VSCode/Subline
+PHP, Apache, MySql,VSCode/Sublime.
 
 ## Contact us at
 1036636@cuea.edu
