@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+header {
+    background-color: #28a745; /* Green background */
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #28a745; /* Green background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    background-color: #218838; /* Darker green background */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    background-color: #28a745; 
+    color: #fff;
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #e9f7ef; /* Light green background */
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for buttons */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Features Section */
+.features {
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Call to Action Section */
+.call-to-action {
+    text-align: center;
+    padding: 20px;
+    background-color: #e9f7ef; /* Light green background */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+

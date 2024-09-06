@@ -1,0 +1,66 @@
+/* General Form Container Styling */
+form {
+    max-width: 700px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between elements */
+}
+
+/* Form Labels */
+form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Form Input Fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Textarea Specific Styling */
+form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Form Buttons */
+form button {
+    padding: 12px;
+    background-color: #28a745; /* Green background for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
+
+/* Contact Us Page Specific Styling */
+.contact-us {
+    padding: 40px;
+    background-color: #f4f4f4; /* Light grey background for contrast */
+}
+
+.contact-us h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="forms.css">
+
+</head>
+<body>
+    <header>
+        <h1>Shop Registration</h1>
+        <?php include 'navvbar.php'; ?>
+    </header>
+    <main>
+      <form action="register_shop.php" method="POST">
+            <label for="shop_name">Shop Name:</label>
+            <input type="text" id="shop_name" name="shop_name" required>
+
+            <label for="shop_email">Email:</label>
+            <input type="email" id="shop_email" name="shop_email" required>
+
+            <label for="shop_password">Password:</label>
+            <input type="password" id="shop_password" name="shop_password" required>
+
+            <label for="shop_address">Address:</label>
+            <input type="text" id="shop_address" name="shop_address" required>
+
+            <label for="shop_phone">Phone:</label>
+            <input type="tel" id="shop_phone" name="shop_phone" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Spare Parts Management System</p>
+    </footer>
+</body>
+</html>
